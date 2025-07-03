@@ -11,11 +11,11 @@
 <body>
     <header class="bg-blue-800 text-gray-400 p-3 flex justify-between fixed w-full">
         <nav class="space-x-2">
-            <a href="#inicio" class="hover:text-gray-100">Inicio</a>
-            <a href="#instalacion" class="hover:text-gray-100">Instalaciones</a>
-            <a href="#pesca" class="hover:text-gray-100">Pesca</a>
-            <a href="#ubicacion" class="hover:text-gray-100">Ubicacion</a>
-            <a href="#contacto" class="hover:text-gray-100">Contacto</a>
+            <a href="#inicio" onclick="scrollToSection(event, 'inicio')" class="hover:text-gray-100">Inicio</a>
+            <a href="#instalacion" onclick="scrollToSection(event, 'instalacion')" class="hover:text-gray-100">Instalaciones</a>
+            <a href="#pesca" onclick="scrollToSection(event, 'pesca')" class="hover:text-gray-100">Pesca</a>
+            <a href="#ubicacion" onclick="scrollToSection(event, 'ubicacion')" class="hover:text-gray-100">Ubicacion</a>
+            <a href="#contacto" onclick="scrollToSection(event, 'contacto')" class="hover:text-gray-100">Contacto</a>
         </nav>
     </header>
 
@@ -201,4 +201,5 @@
         <p>&copy; 2025 Cabañas Resort. Todos los derechos reservados.</p>
     </footer>
     <script src="https://kit.fontawesome.com/5cbb027761.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
 </body>
